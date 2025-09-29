@@ -16,14 +16,14 @@
 int main() {
 
   //======== 1
-  int a{10};
-  int *p{&a};
+  // int a{10};
+  // int *p{&a};
 
-  // Modify the value of a through p
-  *p = 20;
+  // // Modify the value of a through p
+  // *p = 20;
 
-  std::cout << a << '\n';  // 20
-  std::cout << *p << '\n'; // 20
+  // std::cout << a << '\n';  // 20
+  // std::cout << *p << '\n'; // 20
 
   // //======== 2-1
   // int a{10};
@@ -73,15 +73,24 @@ int main() {
   // std::cout << (*p1 <= *p2) << '\n';
   // std::cout << (*p1 != *p2) << '\n';
 
-  // //======== 5
-  // int a{10};
-  // int b{20};
+  //======== 5
+  int a{10};
+  int b{20};
 
-  // int *p1{&a};
-  // int *p2{&b};
-  // int *p3{&a};
+  int *p1{&a};
+  int *p2{&b};
+  int *p3{&a};
 
-  // // write your code here
+  // write your code here
+  std::cout << "Pointed to Memory Location:" << '\n';
+  std::cout << p1 << '\n';
+  std::cout << p2 << '\n';
+  std::cout << p3 << '\n';
+  std::cout << "Dereferenced Pointers:" << '\n';
+  std::cout << *p1 << '\n';
+  std::cout << *p2 << '\n';
+  std::cout << *p3 << '\n';
+
 
   // //======== 6
   // int *p1{new int{2}};

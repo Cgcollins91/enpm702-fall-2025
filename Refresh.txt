@@ -1,0 +1,17 @@
+# Fetch Latest changes from original respository
+git fetch upstream
+
+# Allow inspection of changes
+# git log upstream/main
+
+# Switch to Local Main Branch
+git checkout main
+
+# Merge latest changes from upstream into local respository:
+git merge upstream/main
+
+# Push updates to my online fork:
+git push origin main
+
+# to create new feature branch from updated main:
+# git checkout -b feature/next-feature

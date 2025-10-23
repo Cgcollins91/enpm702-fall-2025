@@ -10,7 +10,7 @@
  */
 
 #include <iostream>
-
+#include "week5.hpp"
 #include <string>
 #include <vector>
 #include <tuple>   // Required for std::tuple
@@ -33,6 +33,9 @@
 
 // void print_world() { /* ... */ }
 
+// void prompt_user();
+// void print_number(int n);
+
 // void prompt_user()
 // {
 //     std::cout << "Enter a number: ";
@@ -50,7 +53,7 @@
 
 // //==================
 // /*      </4>      */
-// //==================
+//==================
 // void print_number(int number)
 // {
 //     if (number < 0)
@@ -172,17 +175,21 @@
 // //==================
 // /*     </15>      */
 // //==================
-// std::vector<int> generate_data()
-// {
-//     std::vector<int> local_data;
-//     local_data.reserve(100);
-//     // ... operations on local_data ...
-//     for (int i = 0; i < 100; ++i)
-//     {
-//         local_data.push_back(i);
-//     }
-//     // Returning a named object.
-//     return local_data;
+    std::vector<int> generate_data()
+    {
+    std::vector<int> local_data;
+    local_data.reserve(100);
+    // ... operations on local_data ...
+    for (int i = 0; i < 100; ++i)
+    {
+        local_data.push_back(i);
+    }
+    std::cout << &local_data << '\n';
+
+    // Returning a named object.
+    return local_data;
+    }
+
 // }
 // //==================
 // /*     </16>      */
@@ -269,6 +276,12 @@
 
 int main(int argc, char* argv[])
 {
+
+    std::cout << add_numbers(2,3) << '\n';
+    auto my_data{generate_data()};
+    
+    std::cout << &my_data << '\n';
+
     //==================
     /*     Exercise   */
     //==================

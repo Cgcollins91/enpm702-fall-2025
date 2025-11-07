@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Common settings for all lectures
 set(CMAKE_BUILD_TYPE Debug)
-add_compile_options(-Wall -Wextra -pedantic-errors)
+add_compile_options(-Wall -Wextra -Werror -pedantic-errors)
 
 # Optionally add all lecture subdirectories
 # add_subdirectory(week1)
@@ -15,7 +15,8 @@ add_compile_options(-Wall -Wextra -pedantic-errors)
 # add_subdirectory(week4)
 # add_subdirectory(week5)
 # add_subdirectory(week6)
-add_subdirectory(week7)
-add_subdirectory(rwa3_starter)
+# add_subdirectory(week7)
+add_subdirectory(week8)
+
 
 # add_subdirectory(reading_material)

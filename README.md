@@ -1,14 +1,26 @@
 # ENPM702 – Fall 2025
 
+## 📘 Overview
+
+
+👉 [Overview](https://enpm702-fall-2025.readthedocs.io/en/latest/overview.html)
 
 
 
+## 📘 Lecture 6: Functions (Advanced Topics)
 
-## 📘 Lecture 6: Read the Docs
 
-The documentation is hosted on **Read the Docs**:
+👉 [View Lecture 6 Documentation](https://enpm702-fall-2025.readthedocs.io/en/latest/lecture6/lecture6.html)
 
-👉 [View Lecture 6 Documentation](https://enpm702-fall-2025.readthedocs.io/en/latest/)
+## 📘 Lecture 7: Move Semantics and Smart Pointers
+
+
+👉 [View Lecture 7 Documentation](https://enpm702-fall-2025.readthedocs.io/en/latest/lecture7/lecture7.html)
+
+## 📘 Assignment 3
+
+
+👉 [View Assignment 3 Documentation](https://enpm702-fall-2025.readthedocs.io/en/latest/assignments/rwaIII.html)
 
 <!-- ---
 
